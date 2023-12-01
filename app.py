@@ -89,7 +89,7 @@ predicted_class = lr.predict([person])
 probs = lr.predict_proba([person])
 
 if person:
-    st.write(f"Predicted class: {predicted_class[0]}")
+    st.write(f"Predicted class(0 = Not a user; 1 = Linkedin user): {predicted_class[0]}")
 
 if person:
     st.write(f"Probability that this person uses Linkedin: {probs[0][1]}")
