@@ -65,7 +65,6 @@ st.markdown("8: 150k or more")
 option1 = st.number_input("Income Level?", 1, 8, 1, 1)
 
 st.markdown("Education Level Options:")
-st.markdown("Income Level Options:")
 st.markdown("1: Less than high school (Grades 1-8 or no formal schooling)")
 st.markdown("2: High school incomplete (Grades 9-11 or Grade 12 with NO diploma")
 st.markdown("3: High school graduate (Grade 12 with diploma or GED certificate")
